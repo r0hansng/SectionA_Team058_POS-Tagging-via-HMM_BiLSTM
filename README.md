@@ -21,13 +21,13 @@ This repository implements:
 - **Degree Program**: **B. Tech in Computer Science & Artificial Intelligence**
 - **Institution**: Newton School of Technology, Rishihood University
 
-| # | Enrollment Number | Full Name | Institutional Email |
-| :-: | :---: | :--- | :--- |
-| 1 | `2401010391` | **Rohan Singh** | `rohan.singh2024@nst.rishihood.edu.in` |
-| 2 | `2401020088` | **Aniket Pathak** | `aniket.pathak2024@nst.rishihood.edu.in` |
-| 3 | `2401010361` | **Pushpendra Singh Parihar** | `pushpendra.parihar2024@nst.rishihood.edu.in` |
-| 4 | `2401010209` | **Kapil Karan Mathur** | `kapil.mathur2024@nst.rishihood.edu.in` |
-| 5 | `2401010045` | **Agrim Kumar Malhotra** | `agrim.malhotra2024@nst.rishihood.edu.in` |
+| # | Enrollment Number | Full Name | Institutional Email | Git Author / Handle | Primary Contributions & Core Modules |
+| :-: | :---: | :--- | :--- | :--- | :--- |
+| 1 | `2401010391` | **Rohan Singh** | `rohan.singh2024@nst.rishihood.edu.in` | `r0hansng` (`rohan.singh.en@gmail.com`) | **Architecture, Verification & Technical Report**: Project initialization (`pyproject.toml`, `Makefile`, `uv.lock`), academic literature curation (`references/phase1/`), IEEE report drafting (`reports/phase1_project_report.tex`), and automated test suite (31 unit and integration tests across `tests/`). |
+| 2 | `2401020088` | **Aniket Pathak** | `aniket.pathak2024@nst.rishihood.edu.in` | `Aniket-bit7` (`aniketpathak1073@gmail.com`) | **HMM Modeling & Sequence Evaluation**: Generative First-Order HMM (`src/hmm_model.py`), Laplace add-$\alpha$ smoothing with boundary normalization, exact log-space Viterbi dynamic programming decoder with backpointers, and sequence evaluation suite (`src/evaluation.py`). |
+| 3 | `2401010361` | **Pushpendra Singh Parihar** | `pushpendra.parihar2024@nst.rishihood.edu.in` | `makeprodigy` (`payneparihar13@gmail.com`) | **Corpus Preprocessing & Dual-Vocabulary Architecture**: Preprocessing pipelines (`src/preprocessing.py`), `HMMVocabulary` frequency pruning, sentence boundary tagging (`<START>`, `<END>`), and strict mathematical separation between $V_{\text{original}}$ and $V_{\text{model}}$ preventing evaluation leakage. |
+| 4 | `2401010209` | **Kapil Karan Mathur** | `kapil.mathur2024@nst.rishihood.edu.in` | `kapilkaranmathur` (`kapilkaranmathur@gmail.com`) | **Experimentation & Visual Demonstrations**: Reproducible experiment runners (`experiments/phase1_hmm.py`) for tuning and test evaluation; interactive demonstration notebook (`notebooks/phase1_hmm.ipynb`), transition heatmaps, trellis path plots, and film dialogue tagging. |
+| 5 | `2401010045` | **Agrim Kumar Malhotra** | `agrim.malhotra2024@nst.rishihood.edu.in` | `Agrim-2007` (`agrimmalhotra2007@gmail.com`) | **Data Ingestion & Exploratory Analysis**: Sentence-preserving CoNLL-U parser (`src/dataset_loader.py`) handling multi-word tokens and empty nodes, dataset integrity registry (`src/dataset_registry.py`), and comprehensive Exploratory Data Analysis notebook (`notebooks/eda.ipynb`). |
 
 ---
 
